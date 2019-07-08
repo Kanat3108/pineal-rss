@@ -1,0 +1,46 @@
+a.pineal-rss-link{
+	display: inline-block;
+	width: 79%;
+	padding: 0 10px;
+	vertical-align: top;
+	text-decoration: none !important;
+	font-size: 17px;
+	line-height: 22px;
+	height: 66px;
+	outline: none;
+	font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
+}
+
+.pineal-rss-block{
+	width: 48%;
+	display: inline-block; 
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	vertical-align: top;
+	margin-right: 2%;
+	margin-bottom: 15px;
+	
+}
+
+.pineal-rss-img{
+	width:20%;
+	display: inline-block;
+	vertical-align: top;
+    height: 71px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1200px) {
+	.pineal-rss-block{
+	width: 100%;
+	display: block;
+	margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	
+
+	}
