@@ -8,6 +8,16 @@ Version: 1.0
 Author: Kanat Konyrbayev
 */
 
+require 'plugin-update-checker/plugin-update-checker.php';
+
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/Kanat3108/pineal-rss/',
+	__FILE__,
+	'pineal-risk'
+);
+$myUpdateChecker->setBranch('master');
+
+
 
 function pineal_rss_install(){
 	global $wpdb;
