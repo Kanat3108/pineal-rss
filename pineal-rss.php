@@ -4,7 +4,7 @@
 Plugin Name: Pineal RSS
 Plugin URI: 
 Description: RSS plugin 
-Version: 1.0
+Version: 1.1
 Author: Kanat Konyrbayev
 */
 
@@ -13,7 +13,7 @@ require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://github.com/Kanat3108/pineal-rss/',
 	__FILE__,
-	'pineal-risk'
+	'pineal-rss'
 );
 $myUpdateChecker->setBranch('master');
 
