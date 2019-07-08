@@ -4,7 +4,7 @@
 Plugin Name: Pineal RSS
 Plugin URI: 
 Description: RSS plugin 
-Version: 1.1
+Version: 1.2
 Author: Kanat Konyrbayev
 */
 
